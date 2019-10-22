@@ -21,7 +21,9 @@ public class Week1Capstone {
 			String userInput = scan.next();
 			userInput = userInput.toLowerCase();
 			System.out.println(generatePigLatin(userInput));
+			System.out.println();
 			System.out.print("Translate another line? (y/n)");
+			System.out.println();
 			contQuest = scan.next();
 		} while (!contQuest.equalsIgnoreCase("N"));
 
